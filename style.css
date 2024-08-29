@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.first{
+    background: url(./images/bg-desktop-dark.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+    
+    
+
+}
+.tosun{
+    display: flex;
+    gap: 312px;
+    
+}
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:26px;
+}
+.left{
+    display: flex;
+    background-color:white;
+    height: 10vh;
+    width: 24vw;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.light-mode{
+    background-color: white;
+    color: black;
+    background: url(./images/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+}
+button{
+    width: 5vw;
+}
+li{
+    list-style: none;
+    gap: 12px;
+    display: flex;
+    padding: 12px;
+    
+}
+.order{
+    border: none;
+}
+.box{
+    background-color: whitesmoke;
+    width: 31vw;
+    overflow: auto;
+    /* padding: 10px; */
+}
+@media screen and (max-width:950px) {
+    .create{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:36px;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        background-color:white;
+        height: 7vh;
+        width: 84vw;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 30px;
+        border-radius: 14px;
+    }
+    button{
+        width:25vw;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    
+    .box{
+        background-color: whitesmoke;
+        width: 69vw;
+        overflow: auto;
+    }
+    .tosun{
+        display: flex;
+        gap: 220px;
+        
+    }
+
+}
